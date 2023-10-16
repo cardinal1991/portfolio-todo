@@ -4,6 +4,7 @@ import React, {
   SetStateAction,
   createContext, useContext, useEffect, useRef, useState,
 } from 'react';
+
 import { deleteTodo, editTodo, getTodos } from '../api/todos';
 import { ErrorTypes, SortTypes, Todo } from '../types/Todo';
 
